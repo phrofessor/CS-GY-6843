@@ -19,7 +19,7 @@ def welcome_assignment_answers(question):
     elif question == "Is MD5 a secured hashing algorithm? - Yes/No":
         answer = "No"
     elif question == "What layer from the TCP/IP model the protocol DHCP belongs to? - The answer should be a numeric number":
-        answer = 7 #Application layer
+        answer = 5 #Application layer
     elif question == "What layer of the TCP/IP model the protocol TCP belongs to? - The answer should be a numeric number":
         answer = 4 #Transport layer
     return(answer)
